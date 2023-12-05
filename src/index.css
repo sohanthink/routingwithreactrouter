@@ -29,6 +29,17 @@ a {
   justify-content: center;
 }
 
-.navbar ul li a.active {
-  color: red;
+.navbar ul li a {
+  position: relative;
+}
+
+.navbar ul li a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 18px;
+  border: 1px solid red;
+  height: 2px;
+  width: 100%;
+  background-color: red;
 }
