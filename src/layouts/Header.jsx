@@ -14,6 +14,9 @@ const Header = () => {
                 <li>
                     <NavLink to="/service">Service</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/nice">error</NavLink>
+                </li>
             </ul>
         </div>
     )
